@@ -1,0 +1,2 @@
+insert into cse532.site(name, address1, address2, city, state, zipcode, country, geolocation)
+	select name, address1, address2, city, state, zipcode, country, db2gse.st_point(latitude,longitude,1) from cse532.siteorginal;
