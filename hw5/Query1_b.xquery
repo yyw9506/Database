@@ -1,0 +1,1 @@
+doc("xmls/purchaseorders.xml")/PurchaseOrders/PurchaseOrder[@Status = "Unshipped" and @OrderDate = "2006-02-18" and item/partid = "100-100-01"]/item[partid != "100-100-01"]

@@ -1,0 +1,1 @@
+doc("xmls/customerinfo.xml")/customers/customerinfo[addr/city = "Toronto" and assistant]/name/data()
