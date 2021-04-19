@@ -1,0 +1,2 @@
+load from "C:\arcos-ca-statewide-itemized.csv" of del modified by DATEFORMAT= "MMDDYYYY"  MESSAGES load.msg INSERT INTO cse532.dea;
+load from "C:\arcos-ky-statewide-itemized.csv" of del modified by DATEFORMAT= "MMDDYYYY"  MESSAGES load.msg INSERT INTO cse532.dea;
